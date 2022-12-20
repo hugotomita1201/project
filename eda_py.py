@@ -34,7 +34,9 @@ data.info()
 data.columns = data.columns.str.lower()
 # lowercase all values within the sector column
 data['sector'] = data['sector'].str.lower()
-
+# filling all na values in price/book. filling with 0 because
+# only 5 values and we are not going to use those values anyways
+data['price/book'] = data['price/book'].fillna(0)
 
 # In[4]:
 

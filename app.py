@@ -1,3 +1,16 @@
+# my python project
+# spy_distribution
+
+# this project is based off of a csv file of all SPY 500 stocks and their
+# technical characteristics (price, market cap, p/e ratio, etc.) the aim of this
+# project is to visually present distributions of stocks within the SPY 500
+# based on what sector they are in and their market cap. This is done through
+# a histogram and multiple scatter plots.
+
+# I have imported modules containing the charts shown in this app through
+# the eda_py.py file.
+
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -33,3 +46,10 @@ below_100 = st.checkbox("Show only market caps below 100 billion?")
 #using imported scatter plot to show
 if below_100: 
     st.plotly_chart(scatter_100)
+
+# conclusions:
+# Through the histogram which presents the sector distributions of the SPY 500, we
+# have found that the top 2 holdings of the SPY are based in healthcare and information
+# technologies.
+# through the scatterplot we have found that a vast majority of stocks in the spy 500
+# are worth 50-100 billion usd and within the range of $0-200 per share.
