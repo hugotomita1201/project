@@ -1,4 +1,4 @@
-# project
+# spy_distribution_project
 sprint 4 project
 
 This project is based around the s&p 500 stock index. The dataset csv file contains the top 500 largest companies in the 
