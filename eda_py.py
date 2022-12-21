@@ -18,7 +18,7 @@ import plotly.express as px
 
 # creating dataframe for S&P 500 COMPANIES DATA
 data = pd.read_csv(
-    '/Users/hugo/python_projects/project/constituents-financials_csv.csv')
+    '/Users/hugo/python_projects/spy_distribution/constituents-financials_csv.csv')
 data = pd.DataFrame(data)
 data
 
