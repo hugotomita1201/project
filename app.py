@@ -23,7 +23,7 @@ import plotly.express as px
 #from eda_py import sector_histogram, data, scatter_100, scatter_50, scatter
 
 # from here to line 76 is eda_py.py file
-data = pd.read_csv(r'spy_distribution/spy.csv')
+data = pd.read_csv(r'spy.csv')
 data = pd.DataFrame(data)
 data
 
