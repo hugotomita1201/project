@@ -17,7 +17,7 @@ import plotly.express as px
 
 # importing certain variables from eda_py which is the .py version of the EDA jupyter notebook within
 # the project-1 folder
-from eda_py import sector_histogram, data, scatter_100, scatter_50, scatter
+from .eda_py import sector_histogram, data, scatter_100, scatter_50, scatter
 
 # title of the website
 st.header("S&P 500 COMPANIES WITH FINANCIAL INFORMATION")
