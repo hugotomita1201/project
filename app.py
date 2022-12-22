@@ -2,8 +2,8 @@
 # spy_distribution
 
 
-# sorry for the bad submissions, I thought that everything worked because I was only checking my local streamlit file instead of the 
-#streamlit on render service.
+# sorry for the bad submissions, I thought that everything worked because I was only checking my local streamlit file instead of the
+# streamlit on render service.
 # this project is based off of a csv file of all SPY 500 stocks and their
 # technical characteristics (price, market cap, p/e ratio, etc.) the aim of this
 # project is to visually present distributions of stocks within the SPY 500
@@ -23,7 +23,7 @@ import plotly.express as px
 #from eda_py import sector_histogram, data, scatter_100, scatter_50, scatter
 
 # from here to line 76 is eda_py.py file
-data = pd.read_csv(r'/spy_distribution/spy.csv')
+data = pd.read_csv(r'spy_distribution/spy.csv')
 data = pd.DataFrame(data)
 data
 
