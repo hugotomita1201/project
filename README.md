@@ -4,6 +4,9 @@ sprint 4 project
 This project is based around the s&p 500 stock index. The dataset csv file contains the top 500 largest companies in the 
 index and financial details about them. 
 
+![image](https://github.com/hugotomita1201/spy_distribution/assets/70402339/db79dca6-dc7c-425e-82b4-566ec57db6af)
+
+
 The objectives for me in the app.py folder were: 
 1. to show the entire csv file dataset on the web
 2. to show the distribution of s&p 500 stocks based on the sector
