@@ -21,4 +21,10 @@ The objectives for me in the app.py folder were:
 All the charts were imported from the eda_py file which is a .py version of the jupyter file within the notebooks file. 
 I imported variables from the eda_py file into app.py for better readability. 
 
+
+Conclusion: 
+- 
+
 URL ON RENDER: https://spy-project-test.onrender.com
+
+
